@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 20px 0px 0px 0px;
+}
+
+.james{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p{
+    margin: 20px ;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.3em;
+}
+
+.jamesLife{
+    display: flex;
+    align-items: center;
+}
+
+h2, h4{
+    text-align: center;
+}
+
+main{
+    /* position: absolute;
+    transform: translate(-50%, -50%);
+    top: 68%;
+    left: 50%;*/
+    background-color: rgb(247, 238, 226);
+    padding: 5px;
+    width: 700px;
+    min-height: 600px;
+    margin: auto;
+    border: dashed 2px brown;
+    margin: 15px 0px 15px 0px;
+    box-shadow: 5px 5px 15px rgb(71, 14, 71);
+    border-radius: 20px;
+}
+
+ul{
+    margin-left: 25px;
+    margin-top: 10px;
+    line-height: 1.5em;
+}
+
+.jamesLife > {
+    margin: 20px 20px 0 0;
+}
+
+footer{
+    margin-top: 25px;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+
+.imgJames-Gosling{
+    margin: 20px 20px 20px 0px;
+}
+
+.imgJames-Gosling > .imgJames{
+    border-radius: 20px;
+}
+
+.tembe{
+    text-align: center;
+}
+
+span{
+    color: brown;
+    font-weight: bold;
+}
